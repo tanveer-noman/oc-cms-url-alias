@@ -73,8 +73,8 @@ Upcoming Modules
 
 Changelog
 =========
-1.0.1: resolving "text_url_alias" shows when user in the dashboard 
-1.0.2: vqmod xml file has been added to show ‘Url Alias’ menu item under Extentions admin menu 
+* 1.0.1: resolving "text_url_alias" shows when user in the dashboard 
+* 1.0.2: vqmod xml file has been added to show ‘Url Alias’ menu item under Extentions admin menu 
 
 Download From OpenCart.Com
 ==========================
