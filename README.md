@@ -71,11 +71,19 @@ Upcoming Modules
 * Report Manager: Manage your sells, quick view and generate report
 * Ad Manager: Advertise products via SMS, Email and ad server
 
+
+Feedback
+========
+If you have any questions,feedback and or need any help to use this extension please visit
+http://neeocis.wordpress.com/2014/01/07/opencart-url-alias-extension-for-seo/
+
+
+Opencart Market Place
+==========================
+http://www.opencart.com/index.php?route=extension/extension/info&extension_id=15375&filter_search=cms%20url%20alias
+
 Changelog
 =========
 * 1.0.1: resolving "text_url_alias" shows when user in the dashboard 
 * 1.0.2: vqmod xml file has been added to show ‘Url Alias’ menu item under Extentions admin menu 
 
-Download From OpenCart.Com
-==========================
-http://www.opencart.com/index.php?route=extension/extension/info&extension_id=15375&filter_search=cms%20url%20alias
