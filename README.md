@@ -29,7 +29,11 @@ Step 3: Go to your root folder and rename the file .htaccess_text to .htaccess. 
 
 Step 4: unzip CMSPACK.zip file. Copy cms folder as per belonging folders like controller, language, model, view. 
 
-Step 5: As vqMod is not available at this moment. You need to edit these following files with describes lines
+Step 5: Upload 'vqmod/xml/admin_menu_modification.xml' file to vQmod xml directory.
+
+Or, 
+
+Step 5: If you don't have vQmod right now, you need to edit these following files 
 
 	1. admin/controller/common/header.php 
 	
@@ -37,6 +41,11 @@ Step 5: As vqMod is not available at this moment. You need to edit these followi
 		$this->data['text_product'] = $this->language->get('text_product'); 
 	add after that line
 		$this->data['text_url_alias'] = $this->language->get('text_url_alias');
+
+	search this line 
+		$this->data['product'] = $this->url->link('catalog/product', 'token=' . $this->session->data['token'], 'SSL');
+	add after that line
+		$this->data['url_alias'] = $this->url->link('cms/alias', 'token=' . $this->session->data['token'], 'SSL');
 	
 	2. admin/language/english/common.php 
 	
@@ -65,6 +74,7 @@ Upcoming Modules
 Changelog
 =========
 1.0.1: resolving "text_url_alias" shows when user in the dashboard 
+1.0.2: vqmod xml file has been added to show ‘Url Alias’ menu item under Extentions admin menu 
 
 Download From OpenCart.Com
 ==========================
