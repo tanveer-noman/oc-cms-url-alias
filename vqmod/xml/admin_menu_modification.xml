@@ -19,7 +19,7 @@ menu item in admin menu section
             <add><![CDATA[$this->data['url_alias'] = $this->url->link('cms/alias', 'token=' . $this->session->data['token'], 'SSL');]]></add>
         </operation>
     </file>
-    <file name="admin/language/english/common.php">
+    <file name="admin/language/english/common/header.php">
         <operation>
             <search position="after"><![CDATA[$_['text_product'] = ‘Products’;]]></search>
             <add><![CDATA[$_['text_url_alias'] = ‘Url Alias’;]]></add>
