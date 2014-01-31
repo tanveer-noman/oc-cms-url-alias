@@ -47,7 +47,7 @@ Step 5: If you don't have vQmod right now, you need to edit these following file
 	add after that line
 		$this->data['url_alias'] = $this->url->link('cms/alias', 'token=' . $this->session->data['token'], 'SSL');
 	
-	2. admin/language/english/common.php 
+	2. admin/language/english/common/header.php 
 	
 	search this line 
 		$_['text_product']                     = 'Products';
